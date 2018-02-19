@@ -1,0 +1,23 @@
+TAG = "countries/Placeholder.txt"
+
+#
+
+BYZ = "countries/Byzantium.txt"
+CLT = "countries/Celts.txt"
+CRT = "countries/Carthage.txt"
+HIT = "countries/Hittites.txt"
+HNS = "countries/Huns.txt"
+IRO = "countries/Iroquois.txt"
+MAY = "countries/Maya.txt"
+MAC = "countries/Macedon.txt"
+MLI = "countries/Mali.txt"
+MOR = "countries/Morocco.txt"
+NUB = "countries/Nubia.txt"
+PLY = "countries/Polynesia.txt"
+SCY = "countries/Scythia.txt"
+SHO = "countries/Shoshone.txt"
+SIO = "countries/Sioux.txt"
+SMR = "countries/Sumeria.txt"
+SNG = "countries/Songhai.txt"
+VNC = "countries/Venice.txt"
+ZUL = "countries/Zulu.txt"

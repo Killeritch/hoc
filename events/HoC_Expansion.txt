@@ -1,0 +1,39 @@
+﻿###########################
+# HoC Expansion Events
+###########################
+
+add_namespace = expansion 
+
+# Expansion
+country_event = {
+	id = expansion.1
+	title = expansion.1.t
+	desc = expansion.1.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = expansion.1.a
+		random_neighbor_state = {
+			limit = {
+				is_owned_by = TAG
+			}
+			add_core_of = ROOT
+			set_state_owner = ROOT
+			set_state_controller = ROOT
+		}
+	}
+
+	option = {
+		name = expansion.1.b
+		random_neighbor_state = {
+			limit = {
+				is_owned_by = TAG
+			}
+			ROOT = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
