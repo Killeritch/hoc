@@ -15,25 +15,27 @@ country_event = {
 	
 	option = {
 		name = expansion.1.a
-		random_neighbor_state = {
+		random_state = {
 			limit = {
 				is_owned_by = TAG
+				any_neighbor_state = {
+					is_owned_by = ROOT
+				}
 			}
-			add_core_of = ROOT
-			set_state_owner = ROOT
-			set_state_controller = ROOT
+			ROOT = { transfer_state = PREV }
 		}
 	}
 
 	option = {
 		name = expansion.1.b
-		random_neighbor_state = {
+		random_state = {
 			limit = {
 				is_owned_by = TAG
+				any_neighbor_state = {
+					is_owned_by = ROOT
+				}
 			}
-			ROOT = {
-				transfer_state = PREV
-			}
+			ROOT = { transfer_state = PREV }
 		}
 	}
 }
